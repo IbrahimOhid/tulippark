@@ -1,0 +1,27 @@
+#checkout-area{
+    position: relative;
+    margin-top: -40px;
+    .inner-checkout{
+        background: $whcolor;
+        padding: 20px;
+        box-shadow: $boxshadow;
+        border-radius: 10px;
+    }
+    .child-checkout{
+        flex-basis: 23%;
+        i{
+            float: left;
+            padding-right: 10px;
+            padding-top: 7px;
+        }
+        h5{
+            color: $bkcolor;
+            font-size: 20px;
+            margin: 0 0 5px;
+        }
+        input[type="submit"]{
+            margin-top: 25px;
+            padding: 12px;
+        }
+    }
+}

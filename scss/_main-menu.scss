@@ -1,0 +1,42 @@
+#main-menu{
+    flex-basis: 68%;
+    ul{
+        text-align: right;
+    }
+    li{
+        margin-left: 15px;
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            width: 0%;
+            height: 2px;
+            background: $primarycolor;
+            left: 0;
+            bottom: 0;
+            transition: 0.5s;
+        }
+        &:hover::after{
+            width: 100%;
+        }
+        &:last-child{
+            a{
+                background: $primarycolor;
+                columns: $whcolor;
+            }
+        }
+        a{
+            display: block;
+            padding: 10px 20px;
+            color: $bkcolor;
+            font:{
+                family: $primarycolor;
+                weight: 600;
+                size: 16px;
+            }
+            i{
+                display: none;
+            }
+        }
+    }
+}

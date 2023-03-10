@@ -1,0 +1,22 @@
+#about-area{
+    padding: $paddinglg;
+    img{
+        margin-right: 25px;
+    }
+    .inner-about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            font: {
+                size: 40px;
+            }
+        }
+        h5{
+            margin: 0;
+        }
+        p{
+            text-align: justify;
+        }
+    }
+}

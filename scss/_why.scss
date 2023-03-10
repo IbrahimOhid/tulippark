@@ -1,0 +1,19 @@
+#why-area{
+    padding: $paddingsm;
+    .inner{
+        margin-top: 25px;
+    }
+    .child-why{
+        background: $whcolor;
+        box-shadow: $boxshadow;
+        text-align: center;
+        padding: $paddingsm;
+        margin-right: 15px;
+        border-radius: 10px;
+        flex-basis: 30%;
+        img{
+            width: 55px;
+            margin-bottom: 15px;
+        }
+    }
+}

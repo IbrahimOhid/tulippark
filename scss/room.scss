@@ -1,0 +1,16 @@
+#room-area{
+    padding: $paddingsm;
+    .room{
+        background: $whcolor;
+        box-shadow: $boxshadow;
+        margin: 10px;
+        border-radius: 10px;
+        .room-content{
+            margin-top: 20px;
+        }
+        img{
+            border-radius: 10px 10px 0  0;
+        }
+    }
+    
+}

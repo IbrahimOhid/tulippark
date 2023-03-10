@@ -1,0 +1,29 @@
+#contact-area{
+    padding: $paddingsm;
+    position: relative;
+    .contact{
+        width: 35%;
+        height: auto;
+        background: $whcolor;
+        border-radius: 20px;
+        box-shadow: $boxshadow;
+        position: absolute;
+        margin-left: 20px;
+        padding: 20px;
+        margin-top: -400px;
+        .info{
+           i{
+            height: 35px;
+            width: 35px;
+            padding: 9px;
+            background-color: $primarycolor;
+            border-radius: 50%;
+            text-align: center;
+            &:hover{
+                background: $bkcolor;
+                color: $whcolor;
+            }
+           }
+        }
+        }
+    }
