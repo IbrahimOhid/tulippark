@@ -1,0 +1,151 @@
+@media only screen and (min-width: 200px) and (max-width: 767px){
+    .content{
+        width: 96%;
+    }
+    h2{
+        font-size: 35px;
+        br{
+            display: none;
+        }
+    }
+    #header-area .top-header .info{
+        display: none;
+        &:last-child{
+            display: block;
+            flex-basis: 100%;
+        }
+        ul{
+            text-align: center;
+        }
+    }
+    .main-header .logo-area{
+        flex-basis: 100%;
+        text-align: center;
+        img{
+            margin: 0 auto;
+            height: 65px;
+            width: 195px;
+        } 
+    }
+    #main-menu{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        z-index: 999;
+        background: $primarycolor;
+        padding: 0;
+        ul{
+            text-align: center;
+            li{
+                margin: 0 0.5%;
+                &:last-child{
+                    display: none;
+                }
+                a{
+                    color: $whcolor;
+                    padding: 10px;
+                    i{
+                        display: block;
+                        margin-bottom: 5px;
+                    }
+                    &:hover{
+                        background-color: $bkcolor;
+                    }
+                }
+            }
+        }
+        
+        
+    }
+    #hero-area{
+        img{
+            height: 200px;
+        }
+        h2{
+            font-size: 32px;
+        }
+        p{
+            display: none;
+        }
+        a{
+            margin: 0;
+        }
+    }
+    #checkout-area{
+        margin-top: 20px;
+        .inner-checkout{
+            flex-direction: column;
+        }
+        .child-checkout{
+            margin-bottom: 15px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            input[type="submit"]{
+                margin-top: 0;
+            }
+        }
+    }
+    #about-area{
+        .inner{
+            flex-direction: column;
+            img{
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    #why-area{
+        .inner{
+            flex-direction: column;
+            .child-why{
+                margin-bottom: 15px;
+                padding: 25px;
+            }
+        }
+    }
+    #room-area{
+        .inner{
+            flex-direction: column;
+            .room-content{
+                padding: 20px;
+            }
+        }
+    }
+    #contact-area iframe{
+        height: 250px;
+    }
+    #contact-area{
+        .contact{
+            position: relative;
+            margin: 0;
+            width: 100%;
+            border-radius: 0;
+            box-shadow: none;
+            border-bottom: 1px solid #ddd;
+        }
+    }
+    #footer-area{
+        background: none;
+        text-align: center;
+        .content{
+            flex-direction: column;
+            margin-bottom: 50px;
+            h4{
+                color: $bkcolor;
+            }
+            ul{
+                text-align: center;
+                a{
+                    background: $primarycolor;
+                    i{
+                        color: $whcolor;
+                    }
+                }
+            }
+        }
+    }
+    
+
+}

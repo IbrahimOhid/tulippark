@@ -365,4 +365,142 @@ ul li {
 #footer-area .content h4 {
   color: #ffffff;
   margin-top: 10px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .content {
+    width: 96%;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h2 br {
+    display: none;
+  }
+  #header-area .top-header .info {
+    display: none;
+  }
+  #header-area .top-header .info:last-child {
+    display: block;
+    flex-basis: 100%;
+  }
+  #header-area .top-header .info ul {
+    text-align: center;
+  }
+  .main-header .logo-area {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .main-header .logo-area img {
+    margin: 0 auto;
+    height: 65px;
+    width: 195px;
+  }
+  #main-menu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 999;
+    background: #2493e9;
+    padding: 0;
+  }
+  #main-menu ul {
+    text-align: center;
+  }
+  #main-menu ul li {
+    margin: 0 0.5%;
+  }
+  #main-menu ul li:last-child {
+    display: none;
+  }
+  #main-menu ul li a {
+    color: #ffffff;
+    padding: 10px;
+  }
+  #main-menu ul li a i {
+    display: block;
+    margin-bottom: 5px;
+  }
+  #main-menu ul li a:hover {
+    background-color: #000000;
+  }
+  #hero-area img {
+    height: 200px;
+  }
+  #hero-area h2 {
+    font-size: 32px;
+  }
+  #hero-area p {
+    display: none;
+  }
+  #hero-area a {
+    margin: 0;
+  }
+  #checkout-area {
+    margin-top: 20px;
+  }
+  #checkout-area .inner-checkout {
+    flex-direction: column;
+  }
+  #checkout-area .child-checkout {
+    margin-bottom: 15px;
+  }
+  #checkout-area .child-checkout:last-child {
+    margin-bottom: 0;
+  }
+  #checkout-area .child-checkout input[type=submit] {
+    margin-top: 0;
+  }
+  #about-area .inner {
+    flex-direction: column;
+  }
+  #about-area .inner img {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  #why-area .inner {
+    flex-direction: column;
+  }
+  #why-area .inner .child-why {
+    margin-bottom: 15px;
+    padding: 25px;
+  }
+  #room-area .inner {
+    flex-direction: column;
+  }
+  #room-area .inner .room-content {
+    padding: 20px;
+  }
+  #contact-area iframe {
+    height: 250px;
+  }
+  #contact-area .contact {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #ddd;
+  }
+  #footer-area {
+    background: none;
+    text-align: center;
+  }
+  #footer-area .content {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  #footer-area .content h4 {
+    color: #000000;
+  }
+  #footer-area .content ul {
+    text-align: center;
+  }
+  #footer-area .content ul a {
+    background: #2493e9;
+  }
+  #footer-area .content ul a i {
+    color: #ffffff;
+  }
 }/*# sourceMappingURL=style.css.map */
